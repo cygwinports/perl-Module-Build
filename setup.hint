@@ -1,0 +1,6 @@
+category: Perl Devel
+requires: cygwin perl perl-ExtUtils-CBuilder perl-ExtUtils-ParseXS perl-YAML
+sdesc: "Perl Module-Build system"
+ldesc: "Module-Build is a system for building, testing, and 
+installing Perl modules. It is meant to be a replacement for 
+ExtUtils-MakeMaker."
