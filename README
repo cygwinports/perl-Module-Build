@@ -6,8 +6,8 @@ modules. It is meant to be a replacement for ExtUtils::MakeMaker.
 Runtime requirements:
   cygwin-1.5.24-2
   perl-5.8.7-5
-  perl-ExtUtils-CBuilder-0.18-1
-  perl-ExtUtils-ParseXS-2.14-1
+  perl-ExtUtils-CBuilder-0.19-1
+  perl-ExtUtils-ParseXS-2.18-1
   perl-YAML-0.62-1
 
 Canonical homepage:
@@ -19,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Module-Build-0.2807-X-src.tar.bz2
+  unpack perl-Module-Build-0.2808-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Module-Build-0.2807-X.cygport all
+  cygport ./perl-Module-Build-0.2808-X.cygport all
 
 This will create:
-  /usr/src/perl-Module-Build-0.2807-X-src.tar.bz2
-  /usr/src/perl-Module-Build-0.2807-X.tar.bz2
+  /usr/src/perl-Module-Build-0.2808-X-src.tar.bz2
+  /usr/src/perl-Module-Build-0.2808-X.tar.bz2
 
 -------------------------------------------
 
@@ -61,10 +61,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/Module/Build/PodParser.pm
   /usr/lib/perl5/vendor_perl/5.8/Module/Build/YAML.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Module/Build/.packlist
-  /usr/share/doc/Cygwin/perl-Module-Build-0.2807.README
-  /usr/share/doc/perl-Module-Build-0.2807/Changes
-  /usr/share/doc/perl-Module-Build-0.2807/INSTALL
-  /usr/share/doc/perl-Module-Build-0.2807/README
+  /usr/share/doc/Cygwin/perl-Module-Build-0.2808.README
+  /usr/share/doc/perl-Module-Build-0.2808/Changes
+  /usr/share/doc/perl-Module-Build-0.2808/INSTALL
+  /usr/share/doc/perl-Module-Build-0.2808/README
   /usr/share/man/man1/config_data.1.gz
   /usr/share/man/man3/Module.Build.3pm.gz
   /usr/share/man/man3/Module.Build.API.3pm.gz
@@ -95,6 +95,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.2808-1 -----
+Version bump.
 
 ----- version 0.2807-1 -----
 Version bump.
