@@ -1,0 +1,10 @@
+CPAN_AUTHOR=leont
+inherit perl
+
+NAME="perl-Module-Build"
+VERSION=0.4007
+RELEASE=1
+CATEGORY="Perl Devel"
+SUMMARY="Perl Module-Build system"
+DESCRIPTION="Module::Build is a system for building, testing, and installing
+Perl modules. It is meant to be a replacement for ExtUtils::MakeMaker."
